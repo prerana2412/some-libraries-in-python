@@ -1,0 +1,12 @@
+# program to write your name using turtle.
+
+from turtle import *
+import turtle as tur
+bgcolor("white")
+
+tur.color("orange")
+tur.pensize(10)
+style = ('Arabic',30,'bold')
+tur.write(" HELLO PRERANA ", font= style, align ='center')
+tur.hideturtle()
+tur.done()
